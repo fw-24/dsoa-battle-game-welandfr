@@ -9,7 +9,7 @@ class FooTest {
     // ÄÅÖ åäö
     @Test
     void getName() {
-        Foo foo = new Foo("bär", 10);
+        Foo foo = new Foo("bar", 10);
         assertEquals(foo.getName(), "bär");
 
     }
