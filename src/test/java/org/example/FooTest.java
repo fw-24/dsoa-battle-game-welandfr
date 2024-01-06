@@ -6,18 +6,19 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FooTest {
 
+    // ÄÅÖ åäö
     @Test
     void getName() {
-        Foo foo = new Foo("bar", 10);
-        assertEquals(foo.getName(), "bar");
+        Foo foo = new Foo("bär", 10);
+        assertEquals(foo.getName(), "bär");
 
     }
 
     @Test
     void setName() {
         Foo foo = new Foo("bar", 10);
-        foo.setName("baz");
-        assertEquals(foo.getName(), "baz");
+        foo.setName("böz");
+        assertEquals(foo.getName(), "böz");
     }
 
     @Test
