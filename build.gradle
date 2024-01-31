@@ -8,6 +8,10 @@ compileTestJava.options.encoding = "UTF-8"
 group 'org.example'
 version '1.0-SNAPSHOT'
 
+// Print the Java version to the build log
+def javaVersion = System.getProperty('java.version')
+println "Java version: $javaVersion"
+
 repositories {
     mavenCentral()
 }
