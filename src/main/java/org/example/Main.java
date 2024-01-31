@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Java version: " + System.getProperty("java.version"));
 
         // Funkar INTE i GitHub Classroom:
-        //System.out.println((new Random()).nextInt(10,20));
+        System.out.println((new Random()).nextInt(10,20));
 
         // FUNKAR  i GitHub Classroom:
         System.out.println((new Random()).nextInt(10) + 10);
