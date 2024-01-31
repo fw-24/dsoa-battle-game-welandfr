@@ -10,7 +10,7 @@ class FooTest {
     @Test
     void getName() {
         Foo foo = new Foo("bar", 10);
-        assertEquals(foo.getName(), "bär");
+        assertEquals(foo.getName(), "bar");
 
     }
 
